@@ -65,7 +65,7 @@ app.put('/projects/:id', (request, response) => {
         owner
     };
 
-    projects[projectIndex] = projects;
+    projects[projectIndex] = project;
 
     return response.json(project);
 })
